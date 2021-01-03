@@ -47,7 +47,7 @@ async def cb_handler(bot, update):
 
 @pyrogram.Client.on_message(pyrogram.Filters.command(["rename"]))
 async def rename_doc(bot, update):
-    if update.from_user.id in Config.BANNED_USERS:
+    if update.from_user.id not in Config.AUTH_USERS:
         await bot.delete_messages(
             chat_id=update.chat.id,
             message_ids=update.message_id,
@@ -94,7 +94,7 @@ async def rename_doc(bot, update):
                 )
             except:
                 pass
-            if "IndianMovie" in the_real_download_location:
+            if "[CG]" in the_real_download_location:
                 await bot.edit_message_text(
                     text=Translation.RENAME_403_ERR,
                     chat_id=update.chat.id,
