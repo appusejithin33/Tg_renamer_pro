@@ -23,7 +23,7 @@ class Translation(object):
     SHOW_CUSTOM_THUMB_NAIL = "<b>🔰Permanent Thumbnail🔰</b> \n\n<b>"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     KL35_THUMBNAIL_PHOTO = "https://telegra.ph/file/1ee9fd2c4b6a6b3c39262.jpg"
-    ABOUT_ME = """<b>🚫 group:__</b> \n\n<b>🔰 owner Name: @DeathCaptureBoy</b> \n\n<b>🛡️ Creator: @KL_noob</b> \n\n<b>🔸 Language: Python3</b> \n\n<b>🔸 Library : <a href="https://docs.pyrogram.org/">Pyrogram asyncio 0.16.1</a></b> \n\n<b>🔸 Source Code : 👉 <a href="https://bit.ly/2AVFsoD">Click Here</a></b> \n\n<b>"""
+    ABOUT_ME = """<b>🚫 group:__</b> \n\n<b>🔰 owner Name: @Princedavitt</b> \n\n<b>🛡️ Creator: @princedavitt</b> \n\n<b>🔸 Language: Python3</b> \n\n<b>🔸 Library : <a href="https://docs.pyrogram.org/">Pyrogram asyncio 0.16.1</a></b> \n\n<b>🔸 Source Code : 👉 <a href="https://bit.ly/2AVFsoD">Click Here</a></b> \n\n<b>"""
     HELP_USER = """ഇത് അത്രക്ക് പാടൊന്നുമല്ലടെ.
     
 1. ഒരു Telegram File Send ചെയ്യുക.
